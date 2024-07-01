@@ -9,12 +9,12 @@ def celsius_kelvin(celsius):
 
 
 def fahrenheit_celsius(fahrenheit):
-    fah_cel = (fahrenheit-32) * 1.8
+    fah_cel = (fahrenheit-32) * (5/9)
     return fah_cel
 
 
 def fahrenheit_kelvin(fahrenheit):
-    fah_kel = (fahrenheit-32)*1.8+273.15
+    fah_kel = (fahrenheit-32)*(5/9)+273.15
     return fah_kel
 
 
